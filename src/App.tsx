@@ -1,6 +1,7 @@
 import Footer from "./components/common/footer"
 import MainBody from "./components/common/main-body"
 import Navbar from "./components/common/navbar"
+import { Analytics } from '@vercel/analytics/next';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
               <div className=" bg-neutral-950">
                 <Footer />
               </div>
+              <Analytics />
         </div>
   )
 }
