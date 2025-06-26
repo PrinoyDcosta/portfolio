@@ -2,6 +2,7 @@ import Footer from "./components/common/footer"
 import MainBody from "./components/common/main-body"
 import Navbar from "./components/common/navbar"
 import { Analytics } from '@vercel/analytics/next';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
                 <Footer />
               </div>
               <Analytics />
+              <SpeedInsights />
         </div>
   )
 }
