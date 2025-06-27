@@ -47,20 +47,20 @@ export default function SignupForm() {
         <div className="mb-4 flex flex-col space-y-2 md:flex-row md:space-y-0 md:space-x-2">
           <LabelInputContainer>
             <Label htmlFor="firstname">First name</Label>
-            <Input name="first_name" id="firstname" placeholder="Enter your first name" type="text" />
+            <Input name="first_name" id="firstname" placeholder="Enter your first name" type="text" required/>
           </LabelInputContainer>
           <LabelInputContainer>
             <Label htmlFor="lastname">Last name</Label>
-            <Input name="last_name" id="lastname" placeholder="Enter your last name" type="text" />
+            <Input name="last_name" id="lastname" placeholder="Enter your last name" type="text" required/>
           </LabelInputContainer>
         </div>
         <LabelInputContainer className="mb-4">
           <Label htmlFor="email">Email Address</Label>
-          <Input name="email" id="email" placeholder="Enter you email" type="email" />
+          <Input name="email" id="email" placeholder="Enter you email" type="email" required/>
         </LabelInputContainer>
         <LabelInputContainer className="mb-8">
           <Label htmlFor="message">Your Message</Label>
-          <Textarea name="message" id="message" placeholder="Enter your message" />
+          <Textarea name="message" id="message" placeholder="Enter your message" required/>
         </LabelInputContainer>
 
         <button
