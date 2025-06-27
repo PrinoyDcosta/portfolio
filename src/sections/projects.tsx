@@ -4,6 +4,10 @@ import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 import GotoIcon from "../assets/goto-icon.jpg"
 import CardItem from "@/components/card-item";
 import VIBLogo from "../assets/vib_logo.jpeg"
+import AternosAutoConfirmIcon from "../assets/aternos_confirm_128.png"
+import HmaiIcon from "../assets/hmai_logo.jpeg"
+import PersonalProjectIcon from "../assets/personal_project.png"
+
 const Projects = () => {
     return(<div className="bg-neutral-950 2xl:py-40 md:pb-20 px-5 2xl:px-40 ">
         <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
@@ -91,7 +95,7 @@ const Projects = () => {
 
             <CardItem
                 area="md:[grid-area:1/1/3/3] xl:[grid-area:1/1/2/6]"
-                icon={VIBLogo}
+                icon={AternosAutoConfirmIcon}
                 title="Aternos Auto Confirm Chrome Extension"
                 description="built a lightweight Chrome extension using vanilla JavaScript that automatically confirms Aternos Minecraft server queues the moment slots become available. The extension monitors the queue status in real-time and programmatically clicks the confirmation button, eliminating manual refreshes. With no dependencies and minimal resource usage, it runs seamlessly in the background while users play. Within just 20 days of launch, it organically gained 154 active users, proving its utility for the Aternos community."
                 tags={["Personal Project", "Open Source Code"]}
@@ -100,7 +104,7 @@ const Projects = () => {
             />
             <CardItem
                 area="md:[grid-area:1/1/3/3] xl:[grid-area:1/1/2/6]"
-                icon={VIBLogo}
+                icon={PersonalProjectIcon}
                 title="React Resume Builder Component"
                 description="Developed a modular React Resume Component using ShadCN UI and Tailwind CSS, enabling dynamic customization. Users can easily add, remove, and reorder sections through intuitive drag-and-drop functionality. Built as a lightweight, reusable npm package for seamless integration. Utilizes React DnD for smooth, interactive resume editing. Maintains a clean, modern UI with a focus on accessibility. Designed for flexibility, allowing personalized resume layouts. Perfect for developers seeking a customizable, easy-to-implement solution."
                 tags={["Personal Project", "Open Source Code"]}
@@ -109,7 +113,7 @@ const Projects = () => {
             />
             <CardItem
                 area="md:[grid-area:1/1/3/3] xl:[grid-area:1/1/2/6]"
-                icon={VIBLogo}
+                icon={PersonalProjectIcon}
                 title="Linux-based Auto Port toggler on DDoS"
                 description="Built a Linux-based DDoS protection system for HLDS game servers that automatically toggles server ports during attacks. Using AWS Lightsail's APIs, it shuts down ports when detecting DDoS traffic through metrics analysis, then restores access when the attack subsides. The system integrates with an AMXX plugin to whitelist active players' IPs before lockdown, maintaining legitimate access while blocking malicious traffic. This automated solution combines cloud infrastructure control with game server protection, eliminating manual intervention during attacks while preserving real player connections through intelligent IP filtering."
                 tags={["Personal Project", "Private Source Code"]}
@@ -117,7 +121,7 @@ const Projects = () => {
             />
             <CardItem
                 area="md:[grid-area:1/1/3/3] xl:[grid-area:1/1/2/6]"
-                icon={VIBLogo}
+                icon={HmaiIcon}
                 title="Goa Homeopathic website"
                 description="Developed a comprehensive website for the Goa Homeopathic Association of India, featuring a public-facing landing page alongside a secure admin panel. The admin interface enabled authorized users to dynamically manage content—including uploading photos to organized albums and maintaining an updated directory of doctors with their contact details for the 'fIND Your Doctor' feature. The website also incorporated visitor analytics to track and display user traffic, providing valuable insights into engagement. Built with a responsive design, the platform effectively served both the association's promotional needs and the public's access to homeopathic practitioners in Goa."
                 tags={["Personal Project", "Private Source Code"]}
