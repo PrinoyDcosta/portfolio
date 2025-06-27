@@ -1,30 +1,4 @@
 // import { BackgroundBeams } from "@/components/ui/background-beams"
-import SignupFormDemo from "@/components/signup-form-demo";
-
-// const ContactMe = () => {
-//     return(
-//         <div className="flex justify-center bg-neutral-950">
-//             <div className="h-[40rem] w-full rounded-md bg-neutral-950 relative flex flex-col items-center justify-center antialiased">
-//                 <div className="max-w-2xl mx-auto p-4">
-//                     {/* <h1 className="relative z-10 text-lg md:text-7xl  bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600  text-center font-sans font-bold">
-//                     Let's get in touch <br></br>
-//                     </h1> */}
-//                     <h1 className="text-neutral-100 scroll-m-20 text-center text-4xl font-extrabold tracking-tight text-balance">
-//                         Wanna contact me?
-//                     </h1>
-//                     <p></p>
-//                     <p className="text-neutral-400 leading-7 [&:not(:first-child)]:mt-6">
-//                         Thank you for your interest in getting in touch with me. I welcome your feedback, questions, and suggestions. If you have a specific question or comment, please feel free to email me directly at   judebaptista18@gmail.com. I make an effort to respond to all messages within 24 hours, although it may take me longer during busy periods. Alternatively, you can use the contact form on my website to get in touch. Simply fill out the required fields and I'll get back to you as soon as possible. Finally, if you prefer to connect on social media, you can find me on https://www.linkedin.com/in/jude-baptista/. I post regular updates and engage with my followers there, so don't hesitate to reach out. Thanks again for your interest, and I look forward to hearing from you!
-//                     </p>
-//                 </div>
-//             </div>
-//             <div className="md:pr-20">
-//                 <img src={ProfilePic} />
-//             </div>
-//         </div>)
-// }
-
-// export default ContactMe
 import { FloatingDock } from "@/components/ui/floating-dock";
 import {
     IconBrandFacebook,
@@ -35,6 +9,7 @@ import {
 } from "@tabler/icons-react";
 import { Highlight } from "@/components/ui/hero-highlight";
 import { Element } from "react-scroll";
+import SignupForm from "@/components/signup-form";
  
 const ContactMe = () => {
   const links = [
@@ -109,7 +84,7 @@ const ContactMe = () => {
                       </div>
               </div>
               <div className="w-full md:w-1/2">
-                  <SignupFormDemo />
+                  <SignupForm />
               </div>
           </div>
         </Element>

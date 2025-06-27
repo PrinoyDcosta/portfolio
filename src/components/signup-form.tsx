@@ -4,12 +4,34 @@ import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 import { cn } from "@/lib/utils";
 import { Textarea } from "./ui/textarea";
+import { toast } from "sonner";
 
-export default function SignupFormDemo() {
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    console.log("Form submitted");
+export default function SignupForm() {
+
+    const onSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    
+    const formData = new FormData(event.currentTarget);
+
+    formData.append("access_key", "822dda0d-4c80-4743-90bb-57cef2de8ff2");
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      console.log(data.success)    
+      toast("Your response has been submitted!")
+
+    } else {
+      console.log("Error", data);
+      toast("Sorry, there is an error submitting your content.")
+    }
   };
+
   return (
     <div className="shadow-input mx-auto w-full max-w-md rounded-none bg-white p-4 md:rounded-2xl md:p-8 dark:bg-black">
       <h2 className="text-xl font-bold text-neutral-800 dark:text-neutral-200">
@@ -19,24 +41,25 @@ export default function SignupFormDemo() {
         Please use this form to send me a message and I will try my best to get back to you in 24 hours.
       </p>
 
-      <form className="my-8" onSubmit={handleSubmit}>
+      <form onSubmit={onSubmit} className="my-8">
+        <input type="hidden" name="access_key" value="822dda0d-4c80-4743-90bb-57cef2de8ff2"></input>
         <div className="mb-4 flex flex-col space-y-2 md:flex-row md:space-y-0 md:space-x-2">
           <LabelInputContainer>
             <Label htmlFor="firstname">First name</Label>
-            <Input id="firstname" placeholder="Enter your first name" type="text" />
+            <Input name="first_name" id="firstname" placeholder="Enter your first name" type="text" />
           </LabelInputContainer>
           <LabelInputContainer>
             <Label htmlFor="lastname">Last name</Label>
-            <Input id="lastname" placeholder="Enter your last name" type="text" />
+            <Input name="last_name" id="lastname" placeholder="Enter your last name" type="text" />
           </LabelInputContainer>
         </div>
         <LabelInputContainer className="mb-4">
           <Label htmlFor="email">Email Address</Label>
-          <Input id="email" placeholder="Enter you email" type="email" />
+          <Input name="email" id="email" placeholder="Enter you email" type="email" />
         </LabelInputContainer>
         <LabelInputContainer className="mb-8">
           <Label htmlFor="message">Your Message</Label>
-          <Textarea id="message" placeholder="Enter your message" />
+          <Textarea name="message" id="message" placeholder="Enter your message" />
         </LabelInputContainer>
 
         <button

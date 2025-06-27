@@ -1,3 +1,4 @@
+import { Toaster } from "sonner";
 import Footer from "./components/common/footer"
 import MainBody from "./components/common/main-body"
 import Navbar from "./components/common/navbar"
@@ -18,6 +19,7 @@ function App() {
               </div>
               <Analytics />
               <SpeedInsights />
+              <Toaster />
         </div>
   )
 }
