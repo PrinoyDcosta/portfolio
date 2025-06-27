@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 import { cn } from "@/lib/utils";
@@ -8,20 +8,21 @@ import { toast } from "sonner";
 
 export default function SignupForm() {
 
+    const [isLoading, setIsLoading] = useState<boolean>(false)
+
     const onSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    
     const formData = new FormData(event.currentTarget);
 
     formData.append("access_key", "822dda0d-4c80-4743-90bb-57cef2de8ff2");
-
+    setIsLoading(true)
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
       body: formData
     });
 
     const data = await response.json();
-
+    setIsLoading(false)
     if (data.success) {
       console.log(data.success)    
       toast("Your response has been submitted!")
@@ -66,7 +67,8 @@ export default function SignupForm() {
           className="group/btn relative block h-10 w-full rounded-md bg-gradient-to-br from-black to-neutral-600 font-medium text-white shadow-[0px_1px_0px_0px_#ffffff40_inset,0px_-1px_0px_0px_#ffffff40_inset] dark:bg-zinc-800 dark:from-zinc-900 dark:to-zinc-900 dark:shadow-[0px_1px_0px_0px_#27272a_inset,0px_-1px_0px_0px_#27272a_inset]"
           type="submit"
         >
-          Send email &rarr;
+          
+          {isLoading ? "Submitting response..." : <>Send email &rarr;</>}
           <BottomGradient />
         </button>
 
