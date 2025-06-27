@@ -80,6 +80,7 @@ const ContactMe = () => {
                       <div className="flex items-center justify-center h-[35rem] w-full">
                           <FloatingDock
                               items={links}
+                              mobileClassName="pb-10"
                           />
                       </div>
               </div>

@@ -12,10 +12,10 @@ const Projects = () => {
     return(<div className="bg-neutral-950 2xl:py-40 md:pb-20 px-5 2xl:px-40 ">
         <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
             <h2 className="text-lg md:text-4xl mb-4 text-black dark:text-white max-w-4xl">
-                <TextGenerateEffect words={"Let me show you the projects I have worked on"} />
+                <TextGenerateEffect words={"Key Projects that I have worked on"} />
             </h2>
             <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base max-w-sm">
-                Throughout my career, on and off, the professional world, I have world on alot of tech stacks.
+                A few projects I've designed, built, and optimized.
             </p>
         </div>
         <ul className="flex gap-5 items-center justify-center flex-wrap">
@@ -23,7 +23,7 @@ const Projects = () => {
                 area="md:[grid-area:2/1/3/7] xl:[grid-area:1/5/3/8]"
                 icon={GotoIcon}
                 title="GoTo Unified Checkout Flow - GoTo Technologies, USA"
-                description="B2B SaaS e-commerce website : Checkout Flow: Led the maintenance and migration of payment checkout forms to a unified, config-driven system, reducing developer effort and providing a scalable, maintainable solution for future project integrations.User Trial Forms: Redesigned user trial forms as dynamic micro-frontends, seamlessly integrated across multiple product marketing websites. Enhanced user interaction, made the forms configurable to minimize frontend changes, and created a dynamic solution adaptable to various products"
+                description="Built a B2B SaaS e-commerce Dynamic Checkout Flow using React, TypeScript, and Sitecore, enabling web publishers to configure it effortlessly without developer intervention. Designed customizable sections to tailor the checkout experience for different products. Implemented granular configuration options, allowing unique setups for each product. Integrated GA tracking to monitor performance and user behavior, aiding data-driven growth strategies. Reduced development time by empowering publishers with self-service controls."
                 tags={["Client Project", "Private Source Code"]}
                 projectLink="https://buy.logmein.com/buy/resolve/standard/customize"
             />    
