@@ -9,6 +9,7 @@ import GotoLogo from "../assets/goto-icon.jpg"
 import PersistentLogo from "../assets/persistent_logo.png"
 import TeknorixLogo from "../assets/teknorix_logo.jpeg"
 import DubaiPicture from "../assets/dubai.jpeg"
+import ZoomableImage from "@/components/ZoomableImage";
 
 const Experience = () => {
       const data = [
@@ -73,18 +74,14 @@ const Experience = () => {
             </ul>
           </div>
           <div className="grid grid-cols-2 gap-4">
-            <img
-              src={TeknorixAward1}
-              alt="hero template"
-              width={500}
-              height={500}
+            <ZoomableImage 
+              src={TeknorixAward1} 
+              alt="TeknorixAward1"
               className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
             />
-            <img
-              src={TeknorixAward2}
-              alt="feature template"
-              width={500}
-              height={500}
+            <ZoomableImage 
+              src={TeknorixAward2} 
+              alt="TeknorixAward2"
               className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
             />
           </div>
@@ -128,25 +125,19 @@ const Experience = () => {
             </ul>
           </div>
           <div className="grid grid-cols-2 gap-4">
-            <img
-              src={PersistentAward1}
-              alt="startup template"
-              width={500}
-              height={500}
+            <ZoomableImage 
+              src={PersistentAward1} 
+              alt="PersistentAward1"
               className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
             />
-            <img
-              src={PersistentAward2}
-              alt="startup template"
-              width={500}
-              height={500}
+            <ZoomableImage 
+              src={PersistentAward2} 
+              alt="PersistentAward2"
               className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
             />
-            <img
-              src={PersistentAward3}
-              alt="startup template"
-              width={500}
-              height={500}
+            <ZoomableImage 
+              src={PersistentAward3} 
+              alt="PersistentAward3"
               className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
             />
           </div>
@@ -161,11 +152,9 @@ const Experience = () => {
            After months of reflection, I realized it was time to step out of my comfort zone and embrace a new challenge. This led me to make the exciting decision to move to the UAE in pursuit of a role that aligns perfectly with my aspirations and growth. The journey ahead is uncharted, but I’m eager to see what the future holds!
           </p>
            <div className="grid grid-cols-2 gap-4">
-            <img
-              src={DubaiPicture}
-              alt="startup template"
-              width={500}
-              height={500}
+            <ZoomableImage 
+              src={DubaiPicture} 
+              alt="DubaiPicture"
               className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
             />
           </div>
