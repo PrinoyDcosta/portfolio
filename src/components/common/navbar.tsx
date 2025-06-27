@@ -2,7 +2,6 @@ import { Button } from "../ui/button"
 import NavbarIcon from "../../assets/navbar_logo_small.png"
 import { Link } from 'react-scroll';
 import { animateScroll as scroll } from 'react-scroll';
-import { slide as Menu } from 'react-burger-menu'
 import { IconMenu2 } from "@tabler/icons-react";
 import { Sheet, SheetTrigger } from "../ui/sheet";
 import MobileMenu from "../mobile-menu";
