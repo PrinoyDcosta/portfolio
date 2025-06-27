@@ -12,7 +12,7 @@ const Projects = () => {
     return(<div className="bg-neutral-950 2xl:py-40 md:pb-20 px-5 2xl:px-40 ">
         <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
             <h2 className="text-lg md:text-4xl mb-4 text-black dark:text-white max-w-4xl">
-                <TextGenerateEffect words={"Key Projects that I have worked on"} />
+                <TextGenerateEffect words={"Key projects that I have worked on"} />
             </h2>
             <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base max-w-sm">
                 A few projects I've designed, built, and optimized.
