@@ -109,7 +109,7 @@ const Projects = () => {
                 description="Developed a modular React Resume Component using ShadCN UI and Tailwind CSS, enabling dynamic customization. Users can easily add, remove, and reorder sections through intuitive drag-and-drop functionality. Built as a lightweight, reusable npm package for seamless integration. Utilizes React DnD for smooth, interactive resume editing. Maintains a clean, modern UI with a focus on accessibility. Designed for flexibility, allowing personalized resume layouts. Perfect for developers seeking a customizable, easy-to-implement solution."
                 tags={["Personal Project", "Open Source Code"]}
                 //projectLink="https://chromewebstore.google.com/detail/aternos-server-auto-confi/mfbcjmjdjfhdhkameeoljajobdgccdgf"
-                githubLink="https://github.com/PrinoyDcosta/Resume-Masonry"
+                githubLink="https://github.com/PrinoyDcosta/react-resume-viewer"
             />
             <CardItem
                 area="md:[grid-area:1/1/3/3] xl:[grid-area:1/1/2/6]"
