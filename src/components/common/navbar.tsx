@@ -54,9 +54,9 @@ const Navbar = () => {
                     </Sheet>
                 </div>
 
-                <div className="justify-center items-center hidden md:flex">
+                {/* <div className="justify-center items-center hidden md:flex">
                     <Button size="lg" className="">View Resume</Button>
-                </div> 
+                </div>  */}
     </div>)
 }
 
