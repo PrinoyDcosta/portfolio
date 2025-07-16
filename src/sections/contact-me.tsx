@@ -71,10 +71,10 @@ const ContactMe = () => {
                               Whether you have a project in mind, a career opportunity, or just want to connect, I'd love to hear from you. 
                               Feel free to email me directly at {" "}   
                               <Highlight className="text-white">prinoydcosta12@gmail.com
-                              </Highlight>, or if you prefer, use the handy contact form on the left—both options work great! 
+                              </Highlight>, or if you prefer, use the handy contact form on the left, both options work great! 
                               I make it a priority to respond to all inquiries within 24 hours, so you won't be left waiting.
                               <br/>
-                              If you'd like to see more of my work or stay updated, I've included links to my social media and professional profiles below—don't hesitate to connect there as well. Collaboration and networking are important to me, so whether it's feedback, ideas, or just a friendly hello, I'm all ears. Looking forward to our conversation!
+                              If you'd like to see more of my work or stay updated, I've included links to my social media and professional profiles below, don't hesitate to connect there as well. Collaboration and networking are important to me, so whether it's feedback, ideas, or just a friendly hello, I'm all ears. Looking forward to our conversation!
                           </p>
                       </div>
                       <div className="flex items-center justify-center h-[35rem] w-full">

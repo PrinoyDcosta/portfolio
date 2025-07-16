@@ -29,7 +29,7 @@ const Projects = () => {
               <CardItem
                 icon={GotoIcon}
                 title="GoTo Forms widget - GoTo Technologies, USA"
-                description="Built a CMS-driven, customizable form component that empowers web publishers to create and manage forms without developer dependency. Supports dynamic field configuration (text, dropdowns, checkboxes, etc.) directly from the CMS. Developed with React and Formik for seamless form handling and validation. Tracks key Google Analytics events—form views, submissions, and abandonment—for actionable insights. Optimized for flexibility, allowing quick form updates via the CMS. Reduces dev overhead while maintaining robust functionality."
+                description="Built a CMS-driven, customizable form component that empowers web publishers to create and manage forms without developer dependency. Supports dynamic field configuration (text, dropdowns, checkboxes, etc.) directly from the CMS. Developed with React and Formik for seamless form handling and validation. Tracks key Google Analytics events, form views, submissions, and abandonment, for actionable insights. Optimized for flexibility, allowing quick form updates via the CMS. Reduces dev overhead while maintaining robust functionality."
                 tags={["Client Project", "Private Source Code"]}
                 projectLink="https://www.logmein.com/products/resolve/trial"
             />
@@ -74,7 +74,7 @@ const Projects = () => {
             <CardItem
                 icon={VIBLogo}
                 title="VIB News & Annoucements - VIB, Belgium"
-                description="Developed a versatile news and announcements portal featuring an intuitive CMS interface for admins, powered by a customizable rich-text editor (CKEditor) to effortlessly create and format articles. The pluggable frontend displayed content in a dynamic, filterable feed—organized by categories, labs, or centers—with pinned posts for priority visibility. Designed as a pluggable microfrontend, the system seamlessly integrated across platforms while maintaining user-specific filters. Additionally, integrated Google Analytics to track engagement, providing admins with actionable insights into content performance."
+                description="Developed a versatile news and announcements portal featuring an intuitive CMS interface for admins, powered by a customizable rich-text editor (CKEditor) to effortlessly create and format articles. The pluggable frontend displayed content in a dynamic, filterable feed, organized by categories, labs, or centers, with pinned posts for priority visibility. Designed as a pluggable microfrontend, the system seamlessly integrated across platforms while maintaining user-specific filters. Additionally, integrated Google Analytics to track engagement, providing admins with actionable insights into content performance."
                 tags={["Client Project", "Private Source Code"]}
                 projectLink="https://vib.be/en/news#/"
             />
@@ -111,7 +111,7 @@ const Projects = () => {
             <CardItem
                 icon={HmaiIcon}
                 title="Goa Homeopathic website"
-                description="Developed a comprehensive website for the Goa Homeopathic Association of India, featuring a public-facing landing page alongside a secure admin panel. The admin interface enabled authorized users to dynamically manage content—including uploading photos to organized albums and maintaining an updated directory of doctors with their contact details for the 'fIND Your Doctor' feature. The website also incorporated visitor analytics to track and display user traffic, providing valuable insights into engagement. Built with a responsive design, the platform effectively served both the association's promotional needs and the public's access to homeopathic practitioners in Goa."
+                description="Developed a comprehensive website for the Goa Homeopathic Association of India, featuring a public-facing landing page alongside a secure admin panel. The admin interface enabled authorized users to dynamically manage content, including uploading photos to organized albums and maintaining an updated directory of doctors with their contact details for the 'fIND Your Doctor' feature. The website also incorporated visitor analytics to track and display user traffic, providing valuable insights into engagement. Built with a responsive design, the platform effectively served both the association's promotional needs and the public's access to homeopathic practitioners in Goa."
                 tags={["Personal Project", "Private Source Code"]}
                 projectLink="https://www.hmaigoa.com/"
             />

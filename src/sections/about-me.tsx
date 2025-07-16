@@ -15,9 +15,9 @@ const AboutMe = () => {
                             <p></p>
                             <p className="text-neutral-400 leading-7 [&:not(:first-child)]:mt-6">
                                 Hi, I’m <b>Prinoy D’Costa</b>, a Full-Stack Engineer with a passion for frontend development.
-                                Over the past 5 years, I’ve built robust web applications, specializing in React and .NET Core. My journey into software engineering began as a kid, fascinated by how things worked behind the screen—how code brought ideas to life. That curiosity led me to tinker with AMXX plugins for Counter-Strike 1.6 as a teenager, marking my first dive into programming. From there, I became hooked on blending that foundational knowledge with web development.
-                                Beyond coding, I’m an avid Manchester United fan and enjoy playing blitz chess for fun. I also take pride in mentoring and leading—whether guiding juniors at work (earning recognition like Leader of the Year and quarterly team awards) or building tools that make a difference, like the Aternos Auto-Confirm Extension and Auto Port-Off on DDoS plugin.
-                                I love crafting purposeful, detail-oriented solutions—both professionally and in my free time. Let’s build something great together!
+                                Over the past 5 years, I’ve built robust web applications, specializing in React and .NET Core. My journey into software engineering began as a kid, fascinated by how things worked behind the screen, how code brought ideas to life. That curiosity led me to tinker with AMXX plugins for Counter-Strike 1.6 as a teenager, marking my first dive into programming. From there, I became hooked on blending that foundational knowledge with web development.
+                                Beyond coding, I’m an avid Manchester United fan and enjoy playing blitz chess for fun. I also take pride in mentoring and leading, whether guiding juniors at work (earning recognition like Leader of the Year and quarterly team awards) or building tools that make a difference, like the Aternos Auto-Confirm Extension and Auto Port-Off on DDoS plugin.
+                                I love crafting purposeful, detail-oriented solutions, both professionally and in my free time. Let’s build something great together!
                             </p>
                         </div>
                 </div>

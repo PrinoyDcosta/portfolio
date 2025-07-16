@@ -44,7 +44,7 @@ const Experience = () => {
             I began my career at Teknorix as a Trainee Software Engineer during the challenging first wave of COVID-19, 
             initially focusing on backend development. 
             Driven by my passion for learning, I quickly expanded my skills to include React and TypeScript, 
-            transitioning into a full-stack engineer. Over my 3.5-year tenure, my dedication and technical contributions led to two promotions—first to 
+            transitioning into a full-stack engineer. Over my 3.5-year tenure, my dedication and technical contributions led to two promotions, first to 
             Software Engineer and later to Senior Software Engineer.
              I played a pivotal role in developing multiple high-impact web applications for the company, ensuring robust and scalable solutions. 
              My efforts were recognized with back-to-back awards: "On-Time Performer of the Year" for consistent delivery and "Leader of the Year". 
@@ -110,7 +110,7 @@ const Experience = () => {
             </h3>
           </div>
           <p className="mb-2 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
-            After an enriching 3.5 years with my previous company, I decided to take on a new challenge and joined Persistent Systems, one of India's top IT firms with a talented workforce of over 10,000 professionals. As a Lead Software Engineer, I was immediately entrusted with the role of Lead Frontend Engineer on a project with a globally distributed team. Working alongside colleagues from diverse cultural backgrounds was an incredible learning experience and helped me grow both professionally and personally. Thanks to consistent hard work and dedication, I was honored with three consecutive quarterly awards. During my time here, my team successfully delivered two major business initiatives—a dynamic checkout flow and an all-in-one payment system called OnePay, designed to streamline and accelerate the checkout process. Additionally, I had the privilege of mentoring juniors and interns, while also leading a team of five developers. Though my journey at Persistent lasted just 1.4 years, the international exposure, leadership opportunities, and invaluable lessons I gained have left a lasting impact on my career.
+            After an enriching 3.5 years with my previous company, I decided to take on a new challenge and joined Persistent Systems, one of India's top IT firms with a talented workforce of over 10,000 professionals. As a Lead Software Engineer, I was immediately entrusted with the role of Lead Frontend Engineer on a project with a globally distributed team. Working alongside colleagues from diverse cultural backgrounds was an incredible learning experience and helped me grow both professionally and personally. Thanks to consistent hard work and dedication, I was honored with three consecutive quarterly awards. During my time here, my team successfully delivered two major business initiatives, a dynamic checkout flow and an all-in-one payment system called OnePay, designed to streamline and accelerate the checkout process. Additionally, I had the privilege of mentoring juniors and interns, while also leading a team of five developers. Though my journey at Persistent lasted just 1.4 years, the international exposure, leadership opportunities, and invaluable lessons I gained have left a lasting impact on my career.
             
           </p>
           <div className="mb-2 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
