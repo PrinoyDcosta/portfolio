@@ -13,10 +13,10 @@ export default function ZoomableImage({
         <img
           src={src}
           alt={alt || ''}
-          sizes="100vw"
+          //sizes="100vw"
           className={className}
-          width={500}
-          height={500}
+          // width={500}
+          // height={500}
         />
       </DialogTrigger>
       <DialogContent className="max-w-7xl border-0 bg-transparent p-0">
@@ -24,7 +24,7 @@ export default function ZoomableImage({
             <img
                 src={src}
                 alt={alt || ''}
-                sizes="100vw"
+                //sizes="100vw"
             />
         </div>
       </DialogContent>
