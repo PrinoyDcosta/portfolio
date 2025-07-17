@@ -6,6 +6,7 @@ import { IconMenu2, IconDownload, IconBrandGithub } from "@tabler/icons-react";
 import { Sheet, SheetTrigger } from "../ui/sheet";
 import MobileMenu from "../mobile-menu";
 import Resume from "../../assets/resume/Prinoy_DCosta_CV.pdf"
+import { track } from '@vercel/analytics/react';
 
 const Navbar = () => {
 
@@ -16,6 +17,7 @@ const Navbar = () => {
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
+        track('Resume_downloaded', {}, { flags: ['resume'] });
     }
 
     return (<div className="py-5 px-5 flex lg:px-56 md:flex-row justify-between bg-neutral-950 backdrop-blur-md bg-opacity-50 fixed w-full top-0 start-0 end-0 z-50 shadow-2xl">
