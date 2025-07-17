@@ -57,7 +57,7 @@ const Navbar = () => {
                       </nav>
                 </header>
                 <div className="flex justify-center items-center dark gap-3">
-                  <div className="justify-center items-center flex gap-3">
+                  <div className="justify-center items-center hidden lg:flex gap-3">
                      <a href="https://github.com/PrinoyDcosta" target="_blank">
                         <IconBrandGithub size={32} className="text-white dark cursor-pointer"/>
                       </a>
@@ -68,7 +68,7 @@ const Navbar = () => {
                       <SheetTrigger className="dark" asChild>
                         <Button variant="outline" ><IconMenu2 size={48} className="text-white dark"/></Button>
                       </SheetTrigger>
-                      <MobileMenu />
+                      <MobileMenu onDownloadResume={onDownloadResume}/>
                     </Sheet>
                   </div>
                 </div>
