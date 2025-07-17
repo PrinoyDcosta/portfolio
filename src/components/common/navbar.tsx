@@ -66,7 +66,7 @@ const Navbar = () => {
                   <div className="lg:hidden">
                     <Sheet>
                       <SheetTrigger className="dark" asChild>
-                        <Button variant="outline" ><IconMenu2 className="text-white dark h-5 w-5"/></Button>
+                        <Button variant="outline" ><IconMenu2 className="text-white dark"/></Button>
                       </SheetTrigger>
                       <MobileMenu onDownloadResume={onDownloadResume}/>
                     </Sheet>
